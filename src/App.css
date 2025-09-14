@@ -1,0 +1,73 @@
+#date{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#inp{
+    height: 45px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+    outline:none;
+    border-radius: 12px;
+    padding-left: 8px;
+}
+
+#add-btn{
+    height: 45px;
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.task-list{
+    padding: 3px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+img{
+    cursor: pointer;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+
+#parent{
+    display: flex;
+   
+    justify-content: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.completed-para{
+    text-decoration: line-through;
+}
